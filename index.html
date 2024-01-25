@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Republic Day</title>
+
+    <!-- Styling for the document -->
+    <style>
+        /* Reset some default styles and set the font family */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden; /* Hide horizontal scrollbar */
+        }
+
+        /* Header styling with saffron background color */
+        header {
+            background: #ff9933;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Title styling */
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Flag container styling */
+        .flag-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        /* Flag styling with waving animation */
+        .flag {
+            width: 100%;
+            max-width: 600px;
+            animation: wavingFlag 2s infinite;
+        }
+
+        /* Decoration styling */
+        .decoration {
+            text-align: center;
+        }
+
+        /* Circular decoration dots styling */
+        .decoration span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            border-radius: 50%;
+            margin: 0 5px;
+        }
+
+        /* Waving flag animation keyframes */
+        @keyframes wavingFlag {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(10px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        /* Responsive styling for mobile view */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1> Happy Republic Day to All </h1>
+        <p>Celebrating the spirit of unity and freedom.</p>
+    </header>
+
+    <!-- Flag container with waving flag animation -->
+    <div class="flag-container">
+        <img class="flag" src="https://example.com/indian_flag.png" alt="Indian Flag">
+    </div>
+
+    <!-- Decoration section with circular dots -->
+    <div class="decoration">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- JavaScript script tag (if needed) -->
+    <script>
+        // Add JavaScript code here if needed
+    </script>
+</body>
+</html>
